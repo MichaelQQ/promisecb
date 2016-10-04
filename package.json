@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MichaelQQ/cbPromise.git"
+    "url": "git+https://github.com/MichaelQQ/promisecb.git"
   },
   "keywords": [
     "callback",
@@ -19,9 +19,9 @@
   "author": "MichaelQQ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MichaelQQ/cbPromise/issues"
+    "url": "https://github.com/MichaelQQ/promisecb/issues"
   },
-  "homepage": "https://github.com/MichaelQQ/cbPromise#readme",
+  "homepage": "https://github.com/MichaelQQ/promisecb#readme",
   "devDependencies": {
     "babel-cli": "^6.16.0",
     "babel-eslint": "^7.0.0",
