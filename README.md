@@ -1,18 +1,18 @@
-# cbPromisify [![Build Status](https://travis-ci.org/MichaelQQ/cbPromisify.svg?branch=master)](https://travis-ci.org/MichaelQQ/cbPromisify)
+# promisecb [![Build Status](https://travis-ci.org/MichaelQQ/promisecb.svg?branch=master)](https://travis-ci.org/MichaelQQ/promisecb)
 Make callback function return as Promise
 
 ## Install
 ```
-$ npm install --save cbPromisify
+$ npm install --save promisecb
 ```
 
 ## Usage
-#### cbPromisify(fn, [args])
+#### promisecb(fn, [args])
 
 ```js
-import cbPromisify from 'cbPromisify';
+import promisecb from 'promisecb';
 
-const setTimeoutPromise = cbPromisify(setTimeout, 5000);
+const setTimeoutPromise = promisecb(setTimeout, 5000);
 setTimeoutPromise
   .then(() => {
     console.log('5 seconds');
@@ -21,9 +21,9 @@ setTimeoutPromise
 
 With **this**
 ```js
-import cbPromisify from 'cbPromisify';
+import promisecb from 'promisecb';
 
-const queryPromise = cbPromisify(database.query.bind(database), 'something');
+const queryPromise = promisecb(database.query.bind(database), 'something');
 queryPromise
   .then((result) => {
     console.log(result);
@@ -34,11 +34,11 @@ queryPromise
 
 With **async/await (ES2017)**
 ```js
-import cbPromisify from 'cbPromisify';
+import promisecb from 'promisecb';
 
 const asyncFunc = async () => {
   try {
-    const result = await cbPromisify(database.query.bind(database), 'something');
+    const result = await promisecb(database.query.bind(database), 'something');
     console.log(result);
   } catch (error) {
     console.error(error);

@@ -1,9 +1,9 @@
 const test = require('tape');
-const cbPromisify = require('./dist/index.js').cbPromisify;
+const promisecb = require('./dist/index.js').promisecb;
 
 test('cbPrmise test', function (t) {
   const expect = '[object Promise]';
-  const actual = cbPromisify(setTimeout, 100).toString();
+  const actual = promisecb(setTimeout, 100).toString();
 
   t.equal(actual, expect, 'should return promise');
   t.end();

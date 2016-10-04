@@ -1,5 +1,5 @@
 {
-  "name": "cbpromisify",
+  "name": "promisecb",
   "version": "1.0.0",
   "description": "make callback function return as promise",
   "main": "index.js",
