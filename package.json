@@ -26,8 +26,8 @@
     "babel-cli": "^6.16.0",
     "babel-eslint": "^7.0.0",
     "babel-preset-latest-minimal": "^1.1.2",
-    "babel-tape-runner": "^2.0.1",
     "eslint": "^3.7.1",
+    "rimraf": "^2.5.4",
     "tape": "^4.6.2"
   }
 }

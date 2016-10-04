@@ -1,4 +1,4 @@
-# cbPromise
+# cbPromise [![Build Status](https://travis-ci.org/MichaelQQ/cbPromise.svg?branch=master)](https://travis-ci.org/MichaelQQ/cbPromise)
 Make callback function return as Promise
 
 ## Install
