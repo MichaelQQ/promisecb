@@ -1,4 +1,4 @@
-module.exports.promisecb = (fn, ...args) => new Promise((resolve, reject) => {
+module.exports = (fn, ...args) => new Promise((resolve, reject) => {
   const callback = (error, ...result) => {
     if (error) { return reject(error); }
     return resolve(...result);

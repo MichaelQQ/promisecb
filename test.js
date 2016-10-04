@@ -1,5 +1,5 @@
 const test = require('tape');
-const promisecb = require('./dist/index.js').promisecb;
+const promisecb = require('./dist/index.js');
 
 test('cbPrmise test', function (t) {
   const expect = '[object Promise]';
