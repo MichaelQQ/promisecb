@@ -1,16 +1,16 @@
 language: node_js
 node_js:
-  - "6"
-  - "6.1"
-  - "node"
+- '6'
+- '6.1'
+- node
 cache:
   directories:
-    - node_modules
+  - node_modules
 deploy:
   provider: npm
   email: mr.tu@michaelqq.com
   api_key:
-    secure: HP8Qu5XPEsbvLaHK5RIbzGKyVZTBaS6ttdDt7oZWzrEZ3izW7Ky5Vq56OeK+4C+H4BYNrTouzde6n3hoBEpf2jGQJw62DRthBbWBqTmDaPh8aCvovBXgMf2Vst8JwmdG64SxOkquWlmpLYuucH4ky5l+FGlAT4JjE6u6G51cvC9oo8aD05QQf0J8latvJjROteVN62AJfgO9QSNxVPjTnUAaWX3r0jKQgTK26prYX0aLBccWJptHLCzbU6mlwGJr1zR7RxFa8qtqfOw3n49cxeZfCL2NJI4xBRbZNEnhL+xEtYQUltKYifMetwQ/XqxXeIVWP9ZdEKLt2/YAh1Hrh3n3PuGyvOIn5Serw2Jtj0ENOh2GNQm/hfK3l5wd2KrszLfUQalkQ60q8NsgGw68k2p3DjQNukS20qrBhe78jMvOwHiyuBI/PO1aE1zkbLwAIv5Y9ePcjzj64QGVDJyKvBkJExkTXvfTECnIi4Sjbmrgez4QawYB/KfxAnKiMpjtKRdXg3jyg2acT6j9/e/gvNiTjI5FCKOGIZ3iazBPUUYEVTlZuIM5VuZbnbJ4t4H9Cf0Jaf3A73UEig00Vdj50EB4ka7e2cBsXXrfU+tukqmKmU8HJR8lI+2yvIit9/pMr+J1qlY8yRn50LPKxj0vTJNxqoe+3tZEafqwefdPcLU=
+    secure: MYHjhGvuN2p1A64QKoccSwME1Jb2CBiuVdy2uMZdALtjUTEAXnGEFPotFJ+yb7EPbHm3jBaj8ylecIklU9XFx+AH6/RBk42Mi2Z1voRAruEzjz5lMLd7Y2g60iKH02OyootIhEWzo7zcTMKv1C2tE8eMcUDkGzK2+igOEU+GfR0ITmGZlH3nBX01akKOsfJJ1PGzdeAG8L0NvuxPdpcBau+O925l69qNmrvcUEe+EdxDfr5f4rM6Y61LYXVFZOnXpYLlsA05VjUD5LAlBQl0DuReUZvS7UWvvNuHLedDtvPP/M+ilxO20Rl5WbMETCwqTy/8TtbhdJYBbwy38x96Luf1WSJifPyrTuEfPIqKJll3xm5xumJbCmjH8F+AtOTihOJKwgC9/Y25Ief+O+7EtEFRQqIJJHtyv4nUd9hiQU7Bq6EEbzLzxcFhiqfeuHkGWU4SODIqGxUaYpvR5sYrpldnMS/ffSq8/APcgbn7R1Y0VoqMuiqexhSFjK7vJZexs32hLIathqAjR05/tqe8VMvbCbOoLv1aDN5YPLLykpS8q9DEdU+h0RCZQE+zpDhhTxoI42tJocSEdLrMyBn8RB2QC9tWn5adjE+5Hdv23am51KHEdm4/dlI0Urh7F0WPyOM4BiBDUM+nSNJW3ItSeXodJnECM5AXqYd+4moRQgE=
   on:
     tags: true
     repo: MichaelQQ/cbPromise
