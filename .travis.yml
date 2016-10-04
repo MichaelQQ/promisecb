@@ -6,7 +6,9 @@ node_js:
 cache:
   directories:
   - node_modules
+before_deploy: "npm test"
 deploy:
+  skip_cleanup: true
   provider: npm
   email: mr.tu@michaelqq.com
   api_key:
