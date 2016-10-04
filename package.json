@@ -1,0 +1,31 @@
+{
+  "name": "cbpromise",
+  "version": "1.0.0",
+  "description": "make callback function return as promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && babel-tape-runner test.js",
+    "build": "babel index.js -o dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelQQ/cbPromise.git"
+  },
+  "keywords": [
+    "callback",
+    "promise"
+  ],
+  "author": "MichaelQQ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichaelQQ/cbPromise/issues"
+  },
+  "homepage": "https://github.com/MichaelQQ/cbPromise#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "babel-preset-latest-minimal": "^1.1.2",
+    "babel-tape-runner": "^2.0.1",
+    "eslint": "^3.7.1",
+    "tape": "^4.6.2"
+  }
+}
