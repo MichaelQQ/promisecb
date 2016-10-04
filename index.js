@@ -1,4 +1,4 @@
-export const cbPromise = (fn, ...args) => new Promise((resolve, reject) => {
+module.exports.cbPromise = (fn, ...args) => new Promise((resolve, reject) => {
   const callback = (error, ...result) => {
     if (error) { return reject(error); }
     return resolve(...result);
@@ -10,5 +10,3 @@ export const cbPromise = (fn, ...args) => new Promise((resolve, reject) => {
     fn.apply(undefined, [callback, ...args]);
   }
 });
-
-export default cbPromise;
