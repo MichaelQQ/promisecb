@@ -1,4 +1,4 @@
-module.exports.cbPromise = (fn, ...args) => new Promise((resolve, reject) => {
+module.exports.cbPromisify = (fn, ...args) => new Promise((resolve, reject) => {
   const callback = (error, ...result) => {
     if (error) { return reject(error); }
     return resolve(...result);
