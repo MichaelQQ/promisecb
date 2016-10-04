@@ -2,7 +2,7 @@
   "name": "promisecb",
   "version": "1.0.12",
   "description": "make callback function return as promise",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "compile": "rimraf lib/* && babel index.js -d lib",
     "prepublish": "npm run compile",
