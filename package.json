@@ -4,6 +4,8 @@
   "description": "make callback function return as promise",
   "main": "index.js",
   "scripts": {
+    "compile": "rimraf lib/* && babel index.js -d lib",
+    "prepublish": "npm run compile",
     "clean": "rimraf dist",
     "test": "npm run clean && npm run build && tape test.js",
     "build": "mkdir dist && babel index.js -o dist/index.js"
