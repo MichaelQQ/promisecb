@@ -1,6 +1,6 @@
 {
   "name": "promisecb",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "make callback function return as promise",
   "main": "lib/index.js",
   "scripts": {
