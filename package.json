@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run build && babel-tape-runner test.js",
-    "build": "babel index.js -o dist/index.js"
+    "build": "mkdir dist && babel index.js -o dist/index.js"
   },
   "repository": {
     "type": "git",
